@@ -17,6 +17,10 @@ Hint: stick this command, where s000000 is your student number, in a bash script
 ssh -t s000000@hpcgate.cranfield.ac.uk ssh s000000@delta.central.cranfield.ac.uk
 ```
 
+Use `module load [package name]` or `ml [package name]` to load the software you want to use.
+Type `ml` to list the loaded packages.
+The module system is nice because it allows you to easily load and manage the software you want to use.
+
 
 ### Personal Computer
 Linux is used on HPC systems and by many scientists, it is very useful to get comfortable with it.
@@ -32,8 +36,11 @@ Luckily Linux has been integrated into Windows, there is no more need to dual bo
  4. [Install](https://sourceforge.net/projects/xming/) Xming and add `export DISPLAY=:0` to your `.bashrc` file.
     Here is more info about [.bashrc](https://www.maketecheasier.com/what-is-bashrc/).
  5. It is helpful to [learn Emacs](http://ergoemacs.org/emacs/emacs_basics.html) or [learn Vim](https://danielmiessler.com/study/vim/).
- I prefer Emacs, it is crazy powerful, but just an fyi there is a never ending battle between Emacs people and Vim people.
- You should learn a bit of both since each ones key binding show-up all over the place
+    Both are text editors that can be used from the command line.
+    It's a great thing when you figure out how to do everything using your keyboard, it takes so long to reach out and use the mouse ;)
+    You can get extension is VS Code that will allow you to use key-bindings for either of these.
+    I prefer Emacs, it is crazy powerful, but just an fyi there is a never ending battle between Emacs people and Vim people.
+    You should learn a bit of both since each ones key binding show-up all over the place.
 
 
 
